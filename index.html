@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Responsive html email template</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        <style type="text/css">
+            /* Defaults */
+            h1 { font-size: 28px;}
+            h2 { font-size: 24px; }
+            .text-center { text-align: center;}
+
+            /* Apple specific fix */
+            @media screen and (min-width: 601px) {
+                .container {width: 600px!important;}
+            }
+        </style>
+
+    </head>
+
+    <body bgcolor="#f4f4f4" style="font-family: sans-serif; color: #333333; line-height: 150%; font-size: 16px;">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td>
+        <![endif]-->
+
+                    <!-- START : EMAIL CONTENT -->
+                    <table bgcolor="#ffffff" class="container" width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin:auto;">
+
+                        <!-- START : 1 COLUMN -->
+                        <tr>
+                            <td class="text-center">
+                                <h1>Email header</h1>
+                            </td>
+                        </tr>
+                        <!-- END : 1 COLUMN -->
+
+                        <tr>
+                            <td bgcolor="#f8f8f8" style="padding: 20px;">
+                                Lorem ipsum dolor sit amet, usu ut legimus voluptatum. Mel ei corrumpit liberavisse, ex vix tollit causae. Ea est debitis recusabo, at latine detracto dissentiet nec, id ius quidam molestie. Sit in aeterno offendit reformidans. Hinc vituperatoribus ne qui, eam ne iusto alterum. Eos qualisque conceptam instructior ut, cu habeo voluptaria vis. Nec at sanctus indoctum sapientem, vim agam minim an.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-style: italic; text-align: center;">
+                                <h2>"Lorem ipsum dolor sit amet, usu ut legimus voluptatum"</h2>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 0 20px;">
+                                Lorem ipsum dolor sit amet, usu ut legimus voluptatum. Mel ei corrumpit liberavisse, ex vix tollit causae. Ea est debitis recusabo, at latine detracto dissentiet nec, id ius quidam molestie.
+                            </td>
+                        </tr>
+
+                        <!-- START : 2 COLUMNS -->
+                        <tr>
+
+                            <td style="text-align: center; vertical-align: top; font-size: 0; padding: 10px;">
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td>
+                                <![endif]-->
+                                            <div style="width: 280px; display: inline-block; vertical-align: top;">
+                                                <table width="100%">
+                                                    <tr>
+                                                        <td style="font-size: 16px;">Column 1<br /><img src="http://placehold.it/260x260"></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                <!--[if (gte mso 9)|(IE)]>
+                                        </td>
+                                        <td>
+                                <![endif]-->
+                                            <div style="width: 280px; display: inline-block; vertical-align: top;">
+                                                <table width="100%">
+                                                    <tr>
+                                                        <td style="font-size: 16px;">Column 2<br /><img src="http://placehold.it/260x260"></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                <!--[if (gte mso 9)|(IE)]>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <![endif]-->
+                            </td>
+                        </tr>
+                        <!-- END : 2 COLUMNS -->
+
+                        <!-- START : 1 column bottom content -->
+                        <tr>
+                            <td style="padding: 0 20px 20px;">
+                                Lorem ipsum dolor sit amet, usu ut legimus voluptatum. Mel ei corrumpit liberavisse, ex vix tollit causae. Ea est debitis recusabo, at latine detracto dissentiet nec, id ius quidam molestie.
+                            </td>
+                        </tr>
+                        <!-- END : 1 column bottom content -->
+
+                    </table>
+
+                    <!-- START : Footer -->
+                    <table width="100%" style="margin: auto; max-width: 600px;">
+                        <tr>
+                            <td style="text-align: center;">
+                                <p><a href="#">Unsubscribe</a><p>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- END : Footer -->
+
+        <!--[if (gte mso 9)|(IE)]>
+                </td>
+            </tr>
+        </table>
+        <![endif]-->
+
+    </body>
+</html>
